@@ -47,6 +47,6 @@ function submitCODForm() {
 
     // ✅ Redirect to Orders Page after 3 seconds
     setTimeout(() => {
-        window.location.href = "home.html"; // Redirect to Home or Order Tracking Page
+        window.location.href = "index.html"; // Redirect to Home or Order Tracking Page
     }, 3000);
 }
