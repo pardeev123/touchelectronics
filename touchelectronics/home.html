@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Touch Electronics</title>
+    <link rel="stylesheet" href="home.css" />
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-photo/medium-shot-woman-checking-fridge-night_23-2150301909.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+
+        .hi {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .service-container, .help-section {
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        h2 {
+            color: white;
+            background-color: black;
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+
+        .service-options a, .help-btn {
+            display: block;
+            margin: 10px auto;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .service-options a:hover, .help-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 768px) {
+            body {
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }
+            h2 {
+                width: 80%;
+                border-radius: 20px;
+            }
+            .service-options a, .help-btn {
+                width: 90%;
+            }
+            .contact-info {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="company-name">Touch Electronics</h1>
+    </header>
+    <div class="hi">
+        <div class="contact-info">
+            <h3>For Inquiries, Call Us:</h3>
+            <p><strong>📞 7396340266</strong></p>
+            <p><strong>📞 9290721100</strong></p>
+            <p><strong>📞 7569146876</strong></p>
+        </div>
+    </div>
+    <main>
+        <div class="service-container">
+            <h2>Our Services</h2>
+            <div class="service-options">
+                <a href="washing_machine.html">Washing Machine Repair</a>
+                <a href="refrigerator.html">Refrigerator Repair</a>
+                <a href="water_purifier.html">Water Purifier Repair</a>
+                <a href="microwave.html">Microwave Oven Repair</a>
+            </div>
+        </div>
+        <div class="help-section">
+            <h2>Need Help?</h2>
+            <a href="help.html" class="help-btn">Help & Support</a>
+        </div>
+    </main>
+</body>
+</html>

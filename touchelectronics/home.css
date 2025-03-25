@@ -1,0 +1,87 @@
+/* Home Page CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7ff; /* Light Blue Background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-container, .order-tracking, .help-section {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.service-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.service-option, .track-order-btn, .help-btn {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-option:hover, .track-order-btn:hover, .help-btn:hover {
+    background-color: #d0eaff;
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.contact-info {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007BFF;
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.hi{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 20px;
+padding-right: 100px;
+
+}
